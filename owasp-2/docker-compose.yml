@@ -8,8 +8,7 @@ services:
     networks:
       - 'owasp'
   client:
-    # image: nukuutos/owasp-frontend-2
-    build: ./owasp-frontend-2
+    image: nukuutos/owasp-frontend-2
     ports:
       - 3000:3000
     networks:
